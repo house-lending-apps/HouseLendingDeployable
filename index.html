@@ -1,0 +1,43 @@
+<!-- DISCLAIMER: This file is here just for development and demo purposes and will not be delivered to anywhere unless
+    otherwise agreed.
+-->
+<!DOCTYPE html>
+<html ng-csp>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>House Lending App</title>
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="node_modules/angular/angular-csp.css">
+    <link rel="stylesheet" href="node_modules/foundation-sites/dist/foundation.css">
+    <link rel="stylesheet" href="house-lending.css">
+    <!-- endinject -->
+
+    <!-- inject:js -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-resource/angular-resource.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.js"></script>
+    <script src="node_modules/angular-messages/angular-messages.js"></script>
+    <script src="node_modules/lodash/lodash.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="node_modules/foundation-sites/dist/foundation.js"></script>
+    <script src="house-lending.js"></script>
+    <!-- endinject -->
+</head>
+
+<body ng-app="house-lending">
+
+
+<div ui-view></div>
+
+<script>
+    $(document).foundation();
+</script>
+
+</body>
+</html>
