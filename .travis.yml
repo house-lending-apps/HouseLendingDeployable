@@ -5,7 +5,7 @@ env:
   - NODE_ENV=travis
 branches:
   except:
-    - /-nobuild$/  
+    - /-nobuild$/
 cache:
   apt : true
   directories:
@@ -13,17 +13,11 @@ cache:
 notifications:
   email:
       - kulkarni.mak172@gmail.com
-before_install:
- - export COMMIT_MESSAGE=$(git show -s --format=%B $TRAVIS_COMMIT | tr -d '\n')
- - export REPOSITORY_NAME=$(echo $TRAVIS_REPO_SLUG | gawk -F/ '{print $2}')
- - npm install npm@latest -g
-install:
- - echo $COMMIT_MESSAGE
- - npm install
- - npm install -g gulp
- - gulp run-prod
-before_script:
-  - "export DISPLAY=:99.0"
-after_success:
-  - bash deploy.sh
+deploy:
+  provider: heroku
+  api_key:
+    secure: f28013d9-a46c-4e41-838e-9ec86c45d54c
+  app:
+    master: house-lending-front
+  on: master
 
