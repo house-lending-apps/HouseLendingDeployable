@@ -1,6 +1,6 @@
 {
-  "name": "house-lending",
-  "main": "house-lending",
+  "name": "house-lending-main",
+  "main": "house-lending-main",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -108,10 +108,5 @@
     "topojson": "1.6.24",
     "what-input": "2.0.1",
     "yargs": "3.32.0"
-  },
-  "files": [
-    "dist/house-lending.js",
-    "dist/house-lending.css",
-    "dist/mocks/house-lending.mock.js"
-  ]
+  }
 }
