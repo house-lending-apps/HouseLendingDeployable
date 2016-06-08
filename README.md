@@ -1,5 +1,5 @@
 # Travis Build Status #
-[![Build Status](https://travis-ci.org/house-lending-apps/HouseLendingFront.svg?branch=master)](https://travis-ci.org/house-lending-apps/HouseLendingFront)
+[![Build Status](https://travis-ci.org/house-lending-apps/HouseLendingMain.svg?branch=master)](https://travis-ci.org/house-lending-apps/HouseLendingMain)
 
 # House-Lending-Main
 
