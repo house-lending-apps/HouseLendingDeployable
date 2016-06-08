@@ -1,1 +1,1 @@
-web: npm run startApplication
+web: npm start
