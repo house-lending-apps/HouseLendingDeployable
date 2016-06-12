@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run installDependencies && npm run startApplication",
     "installDependencies":"npm install",
-    "startApplication":"node index.js"
+    "startApplication":"node server.js"
   },
   "author": "Mahesh Kulkarni",
   "dependencies": {
@@ -107,6 +107,15 @@
     "svg4everybody": "2.0.3",
     "topojson": "1.6.24",
     "what-input": "2.0.1",
-    "yargs": "3.32.0"
+    "yargs": "3.32.0",
+    "add-stream": "^1.0.0",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-watch": "^4.3.6",
+    "mongodb": "^2.1.16",
+    "multer": "^1.1.0",
+    "q": "^1.4.1"
   }
 }
