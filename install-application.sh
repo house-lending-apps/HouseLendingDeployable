@@ -4,7 +4,7 @@
 
 cd /opt/HouseLendingMain
 
-export mongodbURL="mongodb://localhost:27017/house-lending-db"
+export MONGO_DB_URL="mongodb://localhost:27017/house-lending-db"
 
 echo "Home directory is: $HOME"
 echo "install-application.sh: directory = $PWD"
