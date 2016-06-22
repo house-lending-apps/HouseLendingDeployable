@@ -11,9 +11,9 @@ echo "install-application.sh: directory = $PWD"
 echo "REPOSITORY_NAME = https://github.com/house-lending-apps/HouseLendingMain.git"
 echo "targetBranch = master"
 
-echo "Starting to pull latest ... from $REPOSITORY_NAME "
+#echo "Starting to pull latest ... from $REPOSITORY_NAME "
 
-git pull
+#git pull
 
 npm install
 
